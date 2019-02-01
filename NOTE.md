@@ -10,3 +10,9 @@ Propsで親から子へと情報が流れる．
 > React components can have state by setting this.state in their constructors. this.state should be considered as private to a React component that it’s defined in.
 
 constructorでthis.stateを初期化する．componentに個別である．
+
+> When you call setState in a component, React automatically updates the child components inside of it too
+
+子にも変更は伝わる．
+
+
