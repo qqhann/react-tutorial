@@ -24,3 +24,7 @@ constructorでthis.stateを初期化する．componentに個別である．
 > Since the Square components no longer maintain state, the Square components receive values from the Board component and inform the Board component when they’re clicked. In React terms, the Square components are now controlled components. The Board has full control over them.
 
 Square自体はBoardにonClickを報告しているだけなので，controlled componentsと呼ばれる．
+
+> In React, function components are a simpler way to write components that only contain a render method and don’t have their own state.
+
+stateを持たず，renderだけのclassはfunction componentsに書き換えることができる．
