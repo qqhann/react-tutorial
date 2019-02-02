@@ -28,3 +28,12 @@ Square自体はBoardにonClickを報告しているだけなので，controlled 
 > In React, function components are a simpler way to write components that only contain a render method and don’t have their own state.
 
 stateを持たず，renderだけのclassはfunction componentsに書き換えることができる．
+
+
+> key is a special and reserved property in React (along with ref, a more advanced feature).
+
+key (refも)はReact独自の要素．
+
+> It’s strongly recommended that you assign proper keys whenever you build dynamic lists.
+
+動的なリストを作るときはkeyを設定するべき．
